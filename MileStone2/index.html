@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+<nav class="navbar">
+    <ul class="menu">
+        <li id="locations" onmouseenter="displaySubmenu('locations')" onmouseleave="hideSubmenu('locations')">
+            <a href="#">Locations</a>
+            <ul class="submenu">
+                <li><a href="#">Darwin</a></li>
+                <li><a href="#">Katherin</a></li>
+                <li><a href="#">Palmerstone</a></li>
+            </ul>
+        </li>
+        <li id="about" onmouseenter="displaySubmenu('about')" onmouseleave="hideSubmenu('about')">
+            <a href="#">About</a>
+            <ul class="submenu">
+                <li><a href="#">History</a></li>
+                <li><a href="#">Team</a></li>
+            </ul>
+        </li>
+        <li id="media" onmouseenter="displaySubmenu('media')" onmouseleave="hideSubmenu('media')">
+            <a href="#">Media</a>
+            <ul class="submenu">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">Reports</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<script src="js/menu.js"></script>
+</body>
+</html>
